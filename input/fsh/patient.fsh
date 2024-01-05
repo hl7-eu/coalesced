@@ -14,6 +14,7 @@ Description: "An example of a patient with a license to krill."
 * meta.profile[+] = "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
 * meta.profile[+] = "https://fhir.ee/StructureDefinition/ee-patient"
 * meta.profile[+] = "http://interopsante.org/fhir/StructureDefinition/FrPatient"
+* meta.profile[+] = "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
 * name
   * given[0] = "James"
   * family = "Pond"
