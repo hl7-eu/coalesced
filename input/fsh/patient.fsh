@@ -10,6 +10,7 @@ Description: "An example of a patient with a license to krill."
 * meta.profile[+] = "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
 * meta.profile[+] = "https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-patient"
 * meta.profile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
+* meta.profile[+] = "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
 * name
   * given[0] = "James"
   * family = "Pond"

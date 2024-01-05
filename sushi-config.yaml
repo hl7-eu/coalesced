@@ -31,6 +31,7 @@ dependencies:
     hl7.fhir.fi.base: 1.0.0
     de.basisprofil.r4: 1.5.0-alpha2
     ch.fhir.ig.ch-core: 4.0.1
+    hl7.fhir.be.core: 2.0.1
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
 #     id: mcode
