@@ -24,6 +24,9 @@ publisher:
 # package id and the value is the version (or dev/current). For advanced
 # use cases, the value can be an object with keys for id, uri, and version.
 #
+
+
+# See also https://confluence.hl7.org/display/IC/National+IG+Implementations
 dependencies:
     # IPA
     hl7.fhir.uv.ipa: 1.0.0
