@@ -13,6 +13,7 @@ Description: "An example of a patient with a license to krill."
 * meta.profile[+] = "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
 * meta.profile[+] = "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
 * meta.profile[+] = "https://fhir.ee/StructureDefinition/ee-patient"
+* meta.profile[+] = "http://interopsante.org/fhir/StructureDefinition/FrPatient"
 * name
   * given[0] = "James"
   * family = "Pond"
