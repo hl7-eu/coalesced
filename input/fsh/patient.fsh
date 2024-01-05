@@ -7,8 +7,9 @@ InstanceOf: Patient
 Description: "An example of a patient with a license to krill."
 * meta.profile[0] = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"
 * meta.profile[+] = "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
-* meta.profile[+] = "http://hl7.se/fhir/ig/base/SEBasePatient"
+* meta.profile[+] = "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
 * meta.profile[+] = "https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-patient"
+* meta.profile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
 * name
   * given[0] = "James"
   * family = "Pond"
