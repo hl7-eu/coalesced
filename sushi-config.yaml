@@ -29,31 +29,31 @@ publisher:
 # See also https://confluence.hl7.org/display/IC/National+IG+Implementations
 dependencies:
     # IPA
-    hl7.fhir.uv.ipa: 1.0.0
+    hl7.fhir.uv.ipa: latest
     # IPS
-    hl7.fhir.uv.ips: 1.1.0
+    hl7.fhir.uv.ips: latest
     # Denmark
-    hl7.fhir.dk.core: 3.0.0
+    hl7.fhir.dk.core: latest
     # Norway
-    hl7.fhir.no.basis: 2.2.0
+    hl7.fhir.no.basis: latest
     # Sweden
-    hl7se.fhir.base: 1.0.0
+    hl7se.fhir.base: latest
     # Finland
-    hl7.fhir.fi.base: 1.0.0
+    hl7.fhir.fi.base: latest
     # Germany
-    de.basisprofil.r4: 1.5.0-alpha2
+    de.basisprofil.r4: latest
     # Switzerland
-    ch.fhir.ig.ch-core: 4.0.1
+    ch.fhir.ig.ch-core: latest
     # Belgium
-    hl7.fhir.be.core: 2.0.1
+    hl7.fhir.be.core: latest
     # Estonia
-    hl7.fhir.ee.base: 1.0.0
+    hl7.fhir.ee.base: latest
     # France
-    hl7.fhir.fr.core: 1.1.0
+    hl7.fhir.fr.core: latest
     # UK
-    fhir.r4.ukcore.stu3.currentbuild: 0.0.8-pre-release
+    fhir.r4.ukcore.stu3.currentbuild: latest
     # Netherlands
-    nictiz.fhir.nl.r4.nl-core: 0.10.0-beta.1
+    nictiz.fhir.nl.r4.nl-core: latest
 
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
