@@ -30,6 +30,8 @@ publisher:
 dependencies:
     # IPA
     hl7.fhir.uv.ipa: 1.0.0
+    # IPS
+    hl7.fhir.uv.ips: 1.1.0
     # Denmark
     hl7.fhir.dk.core: 3.0.0
     # Norway

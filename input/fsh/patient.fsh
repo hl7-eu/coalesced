@@ -5,16 +5,28 @@
 Instance: PatientExample
 InstanceOf: Patient
 Description: "An example of a patient with a license to krill."
-* meta.profile[0] = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"
+// IPA
+* meta.profile[0] = "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
+// IPS
+* meta.profile[+] = "http://hl7.org/fhir/uv/ips/StructureDefinition/Patient-uv-ips"
+// Denmark
+* meta.profile[+] = "http://hl7.dk/fhir/core/StructureDefinition/dk-core-patient"
+// Norway
 * meta.profile[+] = "http://hl7.no/fhir/StructureDefinition/no-basis-Patient"
+// Sweden
 * meta.profile[+] = "http://hl7.se/fhir/ig/base/StructureDefinition/SEBasePatient"
+// Finland
 * meta.profile[+] = "https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-patient"
-* meta.profile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient"
-* meta.profile[+] = "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient"
-* meta.profile[+] = "http://hl7.org/fhir/uv/ipa/StructureDefinition/ipa-patient"
-* meta.profile[+] = "https://fhir.ee/StructureDefinition/ee-patient"
-* meta.profile[+] = "http://interopsante.org/fhir/StructureDefinition/FrPatient"
-* meta.profile[+] = "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient"
+// Switzerland
+* meta.profile[+] = "http://fhir.ch/ig/ch-core/StructureDefinition/ch-core-patient" 
+// Belgium
+* meta.profile[+] = "https://www.ehealth.fgov.be/standards/fhir/core/StructureDefinition/be-patient" 
+// Estonia
+* meta.profile[+] = "https://fhir.ee/StructureDefinition/ee-patient" 
+// France
+* meta.profile[+] = "http://interopsante.org/fhir/StructureDefinition/FrPatient" 
+//UK
+* meta.profile[+] = "https://fhir.hl7.org.uk/StructureDefinition/UKCore-Patient" 
 * name
   * given[0] = "James"
   * family = "Pond"
