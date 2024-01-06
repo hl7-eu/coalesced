@@ -52,6 +52,8 @@ dependencies:
     hl7.fhir.fr.core: 1.1.0
     # UK
     fhir.r4.ukcore.stu3.currentbuild: 0.0.8-pre-release
+    # Netherlands
+    nictiz.fhir.nl.r4.nl-core: 0.10.0-beta.1
 
 #   hl7.fhir.us.core: 3.1.0
 #   hl7.fhir.us.mcode:
