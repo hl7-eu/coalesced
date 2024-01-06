@@ -32,3 +32,5 @@ Description: "An example of a patient with a license to krill."
 * name
   * given[0] = "James"
   * family = "Pond"
+* identifier.value.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
+* identifier.value.extension.valueCode = #unknown
