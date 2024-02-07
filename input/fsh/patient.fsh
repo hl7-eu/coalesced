@@ -53,8 +53,10 @@ Description: "An example of a patient DAR extensions for most fields."
   * family.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
   * family.extension.valueCode = #unknown
   * use = #anonymous
+/*
 * identifier.system.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * identifier.system.extension.valueCode = #unknown
+*/
 * identifier.value.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
 * identifier.value.extension.valueCode = #unknown
 * birthDate.extension.url = "http://hl7.org/fhir/StructureDefinition/data-absent-reason"
