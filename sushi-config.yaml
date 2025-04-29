@@ -50,7 +50,7 @@ dependencies:
     # Estonia
     hl7.fhir.ee.base: 1.0.0
     # France
-    hl7.fhir.fr.core: 1.1.0
+    hl7.fhir.fr.core: 2.1.0
     # UK
     fhir.r4.ukcore.stu3.currentbuild: 0.0.8-pre-release
     # Netherlands
