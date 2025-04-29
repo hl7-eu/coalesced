@@ -30,7 +30,7 @@ Description: "A profile enforcing all known European profiles for the Patient re
 * ^extension[=].valueCanonical = "https://hl7.fi/fhir/finnish-base-profiles/StructureDefinition/fi-base-patient"
 // FR
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
-* ^extension[=].valueCanonical = "http://interopsante.org/fhir/StructureDefinition/FrPatient"
+* ^extension[=].valueCanonical = "https://hl7.fr/ig/fhir/core/StructureDefinition/fr-core-patient"
 // NL
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/structuredefinition-imposeProfile"
 * ^extension[=].valueCanonical = "http://nictiz.nl/fhir/StructureDefinition/nl-core-Patient"
